@@ -7,6 +7,18 @@ class StdioTest {
 
 fun main() {
 
+    // Get the vehicle details like name, cc (decimal) and estimate the approx speed of the vehicle
+    // speed = cc * 2.5
+    //Output ->
+    /**
+     * Name -
+     * CC -
+     * Top Speed -
+     */
+}
+
+fun mainds() {
+
     /**
      * Stdio
      */

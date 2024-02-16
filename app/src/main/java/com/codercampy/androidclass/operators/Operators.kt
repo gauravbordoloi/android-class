@@ -52,7 +52,12 @@ fun main() {
      * increment or decrement by 1
      * ++
      * --
+     * Pre-Post
      */
+
+    var a = 5
+    a = a + 1
+
 
 //    var a1 = 5
 //    a1--
