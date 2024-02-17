@@ -23,6 +23,10 @@ fun main() {
 
     /**
      * FOR Loop
+     * for (i in 0 ..100) {}
+     * for (i in IntRange(0, 100)) {}
+     * for (i in students.indices) {}
+     * for (i in 0 until 100) {}
      */
 
     // Loop to spam a phone number 100 times

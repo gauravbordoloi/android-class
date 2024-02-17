@@ -17,7 +17,7 @@ fun main() {
     val student1 = students[0]
     //println(student1)
 
-    val studentMarks = arrayOf(54, 67, 13, 87)
+    //val studentMarks = arrayOf(54, 67, 13, 87)
 
     //Print the student name and the student marks together
 
@@ -61,27 +61,79 @@ fun main() {
      * 2nd way of creating an array
      */
 
-    val bikeCCs = arrayOf(250, 450, 290, 500)
-
-
-//    val topSpeeds = arrayOf(0.0, 0.0, 0.0, 0.0)
+//    val bikeCCs = arrayOf(250, 450, 290, 500)
 //
-//    for (i in bikeCCs.indices) {
-//        topSpeeds[i] = bikeCCs[i] * 2.5
+//
+////    val topSpeeds = arrayOf(0.0, 0.0, 0.0, 0.0)
+////
+////    for (i in bikeCCs.indices) {
+////        topSpeeds[i] = bikeCCs[i] * 2.5
+////    }
+//
+//    val topSpeedsNewArr = Array(bikeCCs.size) { i ->
+//        if (bikeCCs[i] < 300) {
+//            bikeCCs[i] * 2.5
+//        } else {
+//            bikeCCs[i] * 4.5
+//        }
 //    }
-
-    val topSpeedsNewArr = Array(bikeCCs.size) { i ->
-        if (bikeCCs[i] < 300) {
-            bikeCCs[i] * 2.5
-        } else {
-            bikeCCs[i] * 4.5
-        }
-    }
-
-    println("Top Speeds - ${topSpeedsNewArr.joinToString(" and ")}")
+//
+//    println("Top Speeds - ${topSpeedsNewArr.joinToString(" and ")}")
 
 
     //Q1 - Create 2 arrays with 4 vehicles with their name and mileage and calculate the economy of the bike
     // Economy Formula - mileage / 96.5
+
+
+//Complete dynamic array
+    /**
+     * Student List
+     */
+
+//    val studentNames = Array(10) { i ->
+//        "$i"
+//    }
+//    val studentMarks = Array(10) { i ->
+//        i.toFloat()
+//    }
+//
+//    var i = 0
+//    while (true) {
+//
+//        println("\nEnter the student name")
+//        studentNames[i] = readln()
+//
+//        println("Enter the student marks")
+//        studentMarks[i] = readln().toFloat()
+//
+//        println("${studentNames[i]} with marks ${studentMarks[i]} entered.\nType Exit to do the calculation or Next to add More Students")
+//        val input = readln()
+//        if (i++ >= 9 || input.lowercase() == "exit") {
+//            break
+//        } else if (input.lowercase() == "next") {
+//            continue
+//        } else {
+//            println("Unidentified input")
+//            break
+//        }
+//    }
+//
+//    println("Details of the students - ${studentNames.joinToString()}, ${studentMarks.joinToString()}")
+
+
+//    val newArr = Array(5) { i ->
+//        println("Enter the name of student ${i + 1}")
+//        val name = readln()
+//
+//        println("\nEnter the number of the student ${i + 1}")
+//        val number = readln().toFloat()
+//
+//        Pair(name, number)
+//    }
+//
+//    println(newArr.joinToString())
+
+    //Pair
+    //Triple
 
 }
