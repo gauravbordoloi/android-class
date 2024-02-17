@@ -82,6 +82,6 @@ fun main() {
 
 
     //Q1 - Create 2 arrays with 4 vehicles with their name and mileage and calculate the economy of the bike
-    // Economy Formula - mileage * 96.5
+    // Economy Formula - mileage / 96.5
 
 }
