@@ -20,12 +20,6 @@ fun main() {
 
 //    val prices = arrayOf(7, 19, 5, 3, 6, 4, 100)
 //
-//    //Loop prices
-//    //find the index of minimum value (min)
-//    //find the index of maximum value (max)
-//    //if (max > min) Output = prices[max] - prices[min]
-//    //else -> 0
-//
 //    var maxProfit = 0
 //
 //    for (i in prices.indices) { // main loop
