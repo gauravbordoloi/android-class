@@ -33,26 +33,72 @@ class Teesting {
 //Kotlin program to check if an array contains a given value
 
 
-fun main(){
-    val arr = Array(100,{ i -> generateRandomNumber1() })
-    println(arr.joinToString())
-    println("Enter the Number to find from 0 to 10")
-    val num= readln().toInt()
-    for (i in arr.indices){
-        if (num == arr[i]){
-            println("Number is found in ${i} index")
-            break
-        }
+//fun main(){
+//    val arr = Array(100,{ i -> generateRandomNumber1() })
+//    println(arr.joinToString())
+//    println("Enter the Number to find from 0 to 10")
+//    val num= readln().toInt()
+//    for (i in arr.indices){
+//        if (num == arr[i]){
+//            println("Number is found in ${i} index")
+//            break
+//        }
+//    }
+//
+//
+//
+//}
+//
+
+
+
+
+
+
+
+
+//fun generateRandomNumber1(): Int {
+//    return Random.nextInt(0, 10)
+//}
+
+//fun main() {
+
+}
+
+
+//fun main() {
+//
+//    /**
+//     *
+//     * Take input of marks of 5 students and calculate the average of all
+//     *
+//     */
+//
+//val list = mutableListOf<Int>()
+//    for(i in 0 until 5) {
+//        println("Enter the marks of 5 students")
+//        val marks = readln()
+//        list.add(marks.toInt())
+//    }
+//   val average = list.sum() / list.size
+//    print("The average marks of 5 students: $average")
+//
+//
+//}
+
+
+fun main() {
+    val list = mutableListOf<Int>()
+
+    for (i in 0 until 10) {
+        list.add(generateRandomNumber())
     }
-
-
+    println("The original List is: $list")
+    val reversedList = mutableListOf<Int>()
+    var i = list.size - 1
+    do {
+        reversedList.add(list[i])
+    } while (--i >= 0)
+    println("The reverse List is: $reversedList")
 
 }
-
-fun generateRandomNumber1(): Int {
-    return Random.nextInt(0, 10)
-}
-
-
-
-
