@@ -29,6 +29,8 @@ fun main() {
     //Remove multiple items
     list.removeAll(listOf(10, 20, 30))
 
+    list.addAll(listOf(1, 2, 3, 4, 5))
+
     //Remove all items
     //list.clear()
 
@@ -37,5 +39,9 @@ fun main() {
 
     println("The size of the list is ${list.size}")
     println("The list is $list")
+
+    list.forEachIndexed { index, i ->
+        println("Elemennt at $index is $i")
+    }
 
 }
