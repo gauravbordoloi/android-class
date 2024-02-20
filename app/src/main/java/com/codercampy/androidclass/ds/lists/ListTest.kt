@@ -44,4 +44,14 @@ fun main() {
         println("Elemennt at $index is $i")
     }
 
+
+    val list1 = mutableListOf(55, 65, 75)
+    println("list1 - " + list1)
+
+    println("Enter the number to remove")
+    val numberToRemove  = readln().toInt()
+
+    list1.remove(numberToRemove)
+    println("list1 - " + list1)
+
 }
