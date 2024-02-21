@@ -33,6 +33,12 @@ open class Bike : Vehicle(), CalculateAvg {
 
 }
 
+fun abc(ds: Vehicle) {
+    if (ds is Bike) {
+        //
+    }
+}
+
 open class Car : Vehicle(), CalculateAvg {
 
     var name: String? = null
@@ -58,6 +64,9 @@ fun main() {
 
     val bike = Bike()
     val car = Car()
+
+    abc(Vehicle())
+    abc(Bike())
 
     println(bike.getAvg())
     println(car.getAvg())
