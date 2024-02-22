@@ -16,7 +16,7 @@ package com.codercampy.androidclass.ds.arrays
  * Explanation: In this case, no transactions are done and the max profit = 0.
  */
 
-fun main() {
+//fun main() {
 
 //    val prices = arrayOf(7, 19, 5, 3, 6, 4, 100)
 //
@@ -40,28 +40,7 @@ fun main() {
 
 
 
-    val prices = arrayOf(7,1,5,3,6,4)
+//
 
-    var minIndex = 0
-    for (i in prices.indices) { // main loop
 
-        if (prices[i] < prices[minIndex]) {
-            println("Setting min index at $i")
-            minIndex = i
-        }
-    }
-
-    var maxIndex = minIndex
-    for (i in (minIndex + 1) until prices.size) { // main loop
-        println("i - $i")
-        if (prices[i] > prices[maxIndex]) {
-            println("Setting max index at $i")
-            maxIndex = i
-        }
-    }
-
-    val maxProfit = prices[maxIndex] - prices[minIndex]
-
-    println("Max Profit is $maxProfit")
-
-}
+ 

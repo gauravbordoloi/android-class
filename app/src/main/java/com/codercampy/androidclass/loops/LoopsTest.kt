@@ -1,6 +1,6 @@
 package com.codercampy.androidclass.loops
 
-fun main() {
+//fun main() {
 
     /**
      *
@@ -61,14 +61,27 @@ fun main() {
      * Do While
      */
 
-    var i = 0
-    name1@ do {
-        if (i == 10) {
-            break@name1
-        }
-        println("Running do while for $i")
-    } while (i++ < 100)
+//    var i = 0
+//    name1@ do {
+//        if (i == 10) {
+//            break@name1
+//        }
+//        println("Running do while for $i")
+//    } while (i++ < 100)
+//
+//
+//
+//}
 
+//    fun main() {
+//        // Print natural numbers in reverse order
+//        println("Natural numbers in reverse order:")
+//        for (i in ) {
+//            println(i)
+//        }
+//    }
+
+fun main(){
 
 
 }
