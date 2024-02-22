@@ -13,6 +13,10 @@ fun main() {
 //    val arr = arrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 //    println("Sum of array : ${sumOfArray(arr)}")
 
+    //vehicleDetails2(yearOfManufacture = 2024, name = "Enfield")
+
+    println(sumOfNthNumber(10))
+
 }
 
 /**
