@@ -105,7 +105,7 @@ package com.codercampy.androidclass.student.purab
 //println(map)
 //
 //}
-
+//
 
 /**
  * Find the maximum difference between two array elements that satisfies the given constraints
@@ -231,23 +231,87 @@ https://codercampy.com/license-key-formatting/
 //
 //}
 
-fun main() {
-    val petName = "dog cat cat fish".split(" ")
-    val p = "abba"
+//fun main() {
+//    val petName = "dog cat cat dog".split(" ")
+//    val p = "abba"
+//
+//    val map = mutableMapOf<Char, String>()
+//    var m = true
+//
+//    for (i in 0 until petName.size){
+//        if (map[p[i]] == null){
+//            map[p[i]] = petName[i]
+//        }else{
+//            if (petName[i] != map[p[i]]){
+//                m = false
+//             break
+//            }
+//        }
+//    }
+//
+//        println(m)
+//}
 
-    val map = mutableMapOf<Char, String>()
-    var m = true
+//fun main() {
+//    val petName = "dog cat cat dog".split(" ")
+//    val p = "abba"
+//
+//    val map = mutableMapOf<Char, String>()
+//    var m = true
+//    for (i in 0 until petName.size){
+//        if (map[p[i]] == null){
+//            map[p[i]] = petName[i]
+//
+//
+//        }else {
+//            if (petName[i] != map[p[i]]){
+//                m = false
+//                break
+//            }
+//
+//        }
+//    }
+//
+//
+//    println(m)
+//}
 
-    for (i in 0 until petName.size){
-        if (map[p[i]] == null){
-            map[p[i]] = petName[i]
-        }else{
-            if (petName[i] != map[p[i]]){
-                m = false
-             break
-            }
-        }
-    }
+/**
+ * Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.
+ */
+//fun main() {
+//    println("Enter a Number")
+//    var num = readln().toInt()
+//var result = num
+//    while (result >= 10){
+//        var sum = 0
+//        while (result > 0){
+//            sum += result % 10
+//
+//            result /= 10
+//        }
+//        result = sum
+//    }
+//println(result)
+//}
+//
 
-        println(m)
-}
+/**
+ * Given an array nums of size n, return the majority element.
+ *
+ * The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
+ */
+
+//fun main() {
+//    val num = intArrayOf(2,2,2,1,1,1,3,1,2,1,3,1)
+//    val map = mutableMapOf<Int, Int>()
+//
+//    for (i in num.indices){
+//        if (map[num[i]] != null) {
+//            map[num[i]] = map[num[i]]!! + 1
+//        }else{
+//            map[num[i]] = 1
+//        }
+//    }
+//    println(map)
+//}
