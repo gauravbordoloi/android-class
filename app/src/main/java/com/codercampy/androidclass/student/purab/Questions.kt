@@ -32,14 +32,14 @@ class Questions {
  * Array subset of another arrray:
  */
 
-fun main() {
-    val num1 = intArrayOf(1,2,3,4,5,6,7)
-    val num2 = intArrayOf(2,4,7)
+//fun main() {
+//    val num1 = intArrayOf(1,2,3,4,5,6,7)
+//    val num2 = intArrayOf(2,4,7)
+//
+//
+//}
 
-
-}
-
-fun subset(
-
-    if(num1.)
-}
+//fun subset(
+//
+//    if(num1.)
+//}
